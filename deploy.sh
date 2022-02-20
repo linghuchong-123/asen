@@ -4,7 +4,7 @@
  # @Autor: yangsen
  # @Date: 2022-01-05 09:14:00
  # @LastEditors: yangsen
- # @LastEditTime: 2022-02-20 20:17:42
+ # @LastEditTime: 2022-02-20 20:19:54
 ### 
 #!/usr/bin/env sh
 
@@ -25,7 +25,7 @@ cd docs/.vuepress/dist
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
-#git init
+git init
 git add -A
 git commit -m 'deploy'
 
