@@ -1,0 +1,17 @@
+{
+  "name": "qiangsen-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "qiangsen",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "serve": "vuepress serve docs",
+    "deploy": " deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35"
+  },
+  "dependencies": {}
+}
