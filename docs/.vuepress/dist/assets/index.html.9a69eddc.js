@@ -1,0 +1,1 @@
+const e={key:"v-bd12fe46",path:"/three.js/",title:"",lang:"zh",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645356618e3,contributors:[{name:"yangsene",email:"374688995@qq.com",commits:1}]},filePathRelative:"three.js/index.md"};export{e as data};
