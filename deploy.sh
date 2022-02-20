@@ -4,7 +4,7 @@
  # @Autor: yangsen
  # @Date: 2022-01-05 09:14:00
  # @LastEditors: yangsen
- # @LastEditTime: 2022-02-20 19:31:27
+ # @LastEditTime: 2022-02-20 19:34:21
 ### 
 #!/usr/bin/env sh
 
@@ -16,10 +16,10 @@ git commit -m '增加配置'
 git push git@github.com:linghuchong-123/qiangsen.git master:master
 
 # 构建
-npm run build
+yarn docs:build
 
 # 进入待发布的目录
-cd docs/.vitepress/dist
+cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
