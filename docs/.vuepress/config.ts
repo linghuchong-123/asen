@@ -4,7 +4,7 @@
  * @Author: yangsen
  * @Date: 2022-01-25 21:03:11
  * @LastEditors: yangsen
- * @LastEditTime: 2022-02-20 18:54:14
+ * @LastEditTime: 2022-02-20 23:12:43
  */
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
@@ -20,14 +20,14 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: '@vuepress/theme-default', 
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
-    updatedTime: true,
+    lastUpdatedText:'最近更新时间',
     navbar: [
       { text: '首页', link: '/' },
       { 
-          text: '冴羽的 JavaScript 博客', 
+          text: '阿森的博客', 
           children: [
-              { text: 'Github', link: 'https://github.com/mqyqingfeng' },
-              { text: '掘金', link: 'https://juejin.cn/user/712139234359182/posts' }
+              { text: 'Github', link: 'https://github.com/linghuchong-123' },
+              { text: '公众号', link: '/public/公众号二维码.png' }
           ]
       }
     ],

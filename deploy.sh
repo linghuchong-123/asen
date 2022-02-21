@@ -25,6 +25,7 @@ cd docs/.vuepress/dist
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
 
+# git 能在一个文件夹中新建一个
 git init
 git add -A
 git commit -m 'deploy'
