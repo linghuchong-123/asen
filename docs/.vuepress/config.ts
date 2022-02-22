@@ -4,7 +4,7 @@
  * @Author: yangsen
  * @Date: 2022-01-25 21:03:11
  * @LastEditors: yangsen
- * @LastEditTime: 2022-02-22 09:30:56
+ * @LastEditTime: 2022-02-22 09:37:42
  */
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
@@ -14,7 +14,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh',
   title: '永远有一颗乐于深思的心',
   description: '前端开发图形领域知识',
-  base:'/asen/',
+  base:'/dist/',
   
 
   // 主题和它的配置
