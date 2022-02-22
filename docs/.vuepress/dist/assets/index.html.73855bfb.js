@@ -1,0 +1,1 @@
+const a={key:"v-ea4cae84",path:"/canvas/",title:"1.canvas \u6E32\u67D3\u548C DOM \u6E32\u67D3\u7684\u4E0D\u540C",lang:"zh",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645450376e3,contributors:[{name:"yangsene",email:"374688995@qq.com",commits:2}]},filePathRelative:"canvas/index.md"};export{a as data};
